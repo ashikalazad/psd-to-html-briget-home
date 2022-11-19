@@ -1,0 +1,413 @@
+@media all and (min-width: 500px) and (max-width: 767px) {
+
+  body {
+    color: tomato;
+  }
+
+  .header-top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 0;
+  }
+
+  .header-top-left span {
+    border-left: none;
+    border: 1px solid;
+    color: #000;
+    margin: 5px 0;
+    transition: .3s;
+  }
+
+  .header-top-left span:hover {
+    color: #FF5200;
+  }
+
+  .header-top-right {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .header-top-right a {
+    border: 1px solid;
+  }
+
+  .header-top-right a:last-child {
+    border: 1px solid;
+  }
+
+  .single-slide-item {
+    height: 500px;
+    padding: 0px 100px;
+  }
+
+  .single-slide-item h1 {
+    font-size: 40px;
+  }
+
+  .single-service-item {
+    margin-bottom: 20px;
+  }
+
+  .mb-sm-4 {
+    margin-bottom: 0!important;
+  }
+
+  .service-area {
+    padding: 25px 0;
+  }
+
+  .img-fluid {
+    margin-bottom: 20px;
+  }
+
+  .list-item {
+    margin-bottom: 25px;
+  }
+
+  .work-area {
+    padding: 50px 0;
+  }
+
+  .single-count-item {
+    padding: 50px 0;
+    border: 5px solid;
+    margin: 5px;
+    border-radius: 50px;
+  }
+
+  .count-text p.count,
+  .single-count-item i.fas {
+    font-size: 40px;
+  }
+
+  .more-area {
+    padding: 50px 0;
+  }
+
+  .more-title h2 {
+    font-size: 35px;
+  }
+
+  .more-title p {
+    width: 100%;
+  }
+
+  .more-title {
+    margin-bottom: 20px;
+  }
+
+  .more-img {
+    padding-bottom: 0px;
+  }
+
+  .price-area {
+    padding: 50px 0;
+  }
+
+  .price-row,.news-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-price-area,.single-news-area {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .single-price-area:last-child {
+    margin-bottom: 0;
+  }
+
+  .price-content h1 {
+    font-size: 45px;
+  }
+
+  .idea-bg {
+    padding: 50px 50px;
+}
+
+.idea-title h2 {
+  font-size: 30px;
+}
+
+  .team-area {
+    padding: 50px 0;
+  }
+
+  .single-team-item {
+    margin-bottom: 20px;
+}
+
+.hover-link {
+  margin-left: -15%;
+}
+
+.projects-area {
+  padding: 50px 0;
+}
+
+.porject-bg {
+  margin-bottom: 20px;
+}
+
+.news-area {
+  padding: 50px 0;
+}
+
+.single-news-area{
+  width: 100%;
+}
+
+.news-bg {
+  height: 300px;
+}
+
+.call-content {
+  margin: 10px 0;
+}
+
+.footer-content {
+  margin-bottom: 20px;
+}
+
+.copyright-area p,.copyright-area ul{
+  text-align: center;
+}
+
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+  body {
+    color: blue;
+  }
+
+  .header-top-left span {
+    border-left: none;
+    border: 1px solid;
+    color: #000;
+    transition: .3s;
+  }
+
+  .header-top-left span:hover {
+    color: #FF5200;
+  }
+
+  .header-top-right {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .header-top-right a {
+    border: 1px solid;
+  }
+
+  .header-top-right a:last-child {
+    border: 1px solid;
+  }
+
+  .single-slide-item {
+    height: 500px;
+    padding: 0px 100px;
+  }
+
+  .single-slide-item h1 {
+    font-size: 40px;
+  }
+
+  .service-area {
+    padding: 25px 0;
+  }
+
+  .list-item {
+    margin-bottom: 25px;
+  }
+
+  .work-area {
+    padding: 50px 0;
+  }
+
+  .single-count-item {
+    padding: 10px 0px;
+    border: 5px solid;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+  .count-text p.count,
+  .single-count-item i.fas {
+    font-size: 40px;
+  }
+
+  .more-area {
+    padding: 50px 0;
+  }
+
+  .more-title h2 {
+    font-size: 35px;
+  }
+
+  .more-title p {
+    width: 100%;
+  }
+
+  .more-title {
+    margin-bottom: 20px;
+  }
+
+  .more-img {
+    padding-bottom: 0px;
+  }
+
+  .more-content h4 {
+    margin: 5px 0;
+}
+
+  .price-area {
+    padding: 50px 0;
+  }
+
+  .price-row,.news-row {
+    display: block;
+}
+
+ 
+  .price-row-2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .single-price-area,.single-news-area {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .single-price-area:last-child {
+    margin-bottom: 10px;
+  }
+
+  .price-content h1 {
+    font-size: 45px;
+  }
+
+  .idea-bg {
+    padding: 50px 50px;
+}
+
+.idea-title h2 {
+  font-size: 30px;
+}
+
+  .team-area {
+    padding: 50px 0;
+  }
+
+  .team-bg {
+    height: 450px;
+    background-position: center top;
+}
+
+  .single-team-item {
+    margin-bottom: 20px;
+}
+
+.hover-link {
+  margin-left: -15%;
+}
+
+.projects-area {
+  padding: 50px 0;
+}
+
+.porject-bg {
+  margin-bottom: 0px;
+  height: 450px;
+}
+
+.news-area {
+  padding: 50px 0;
+}
+
+.single-news-area{
+  width: 49%;
+}
+
+.news-bg {
+  height: 300px;
+}
+
+.call-content {
+  margin: 10px 0;
+}
+
+.footer-content {
+  margin-bottom: 20px;
+}
+
+.copyright-area p,.copyright-area ul{
+  text-align: center;
+}
+
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+   body {
+    color: yellow;
+  }
+
+  /* .header-top-left {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-top-left span {
+    border: none;
+    border-left: 1px solid;
+    color: #000;
+    margin: 0;
+    transition: .3s;
+  }
+
+  .header-top-left span:hover {
+    color: none;
+  }
+
+  .header-top-right {
+    text-align: center;
+    margin: 0;
+  }
+
+  .header-top-right a {
+    border: none;
+    border-left: 1px solid;
+  }
+
+  .header-top-right a:last-child {
+    border: none;
+    border-left: 1px solid;
+    border-right: 1px solid;
+  } */
+
+}
+
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+
+  body {
+    color: green;
+  }
+
+}
+
+
+
+@media all and (min-width: 1400px) {
+
+  /* body {
+    color: red;
+  } */
+
+
+}
